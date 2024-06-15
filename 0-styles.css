@@ -1,0 +1,36 @@
+/* 0-styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("fonts/source-sans-pro/SourceSansPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sprint Cycle OT";
+  src: url("fonts/Spin-Cycle-OT/Sprint-Cycle-OT.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #1c1c1e;
+  --secondary-color: #ffffff;
+  --accent-color: #ff6f61;
+  --link-hover-color: #ff6565;
+  --font-family-primary: "Source Sans Pro", sans-serif;
+  --font-family-secondary: "Sprint Cycle OT", sans-serif;
+  --max-width: 1000px;
+}
