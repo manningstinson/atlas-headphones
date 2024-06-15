@@ -1,8 +1,41 @@
-/* styles.css */
-body {
-  font-family: var(--font-family-primary);
+/* Reset and foundational styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body,
+html {
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("fonts/source-sans-pro/SourceSansPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sprint Cycle OT";
+  src: url("fonts/Spin-Cycle-OT/Sprint-Cycle-OT.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #1c1c1e;
+  --secondary-color: #ffffff;
+  --accent-color: #ff6f61;
+  --link-hover-color: #ff6565;
+  --font-family-primary: "Source Sans Pro", sans-serif;
+  --font-family-secondary: "Sprint Cycle OT", sans-serif;
+  --max-width: 1000px;
+}
+
+/* Header and hero section */
 .header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -56,13 +89,13 @@ body {
 
 .hero-content {
   text-align: center;
-  color: var(--secondary-color);
-  margin-top: 350px;
+  color: var (--secondary-color);
+  margin-top: 300px;
   margin-bottom: auto;
 }
 
 .hero-content h1 {
-  font-family: var(--font-family-secondary);
+  font-family: var (--font-family-secondary);
   font-size: 36px;
   margin-bottom: 20px;
 }
@@ -81,6 +114,7 @@ body {
   font-size: 16px;
   transition: opacity 0.3s;
   margin-bottom: 20px;
+  border-radius: 50px;
 }
 
 .cta-button:hover,
@@ -92,7 +126,7 @@ body {
   font-size: 16px;
   max-width: 600px;
   margin: 75px auto;
-  color: var(--secondary-color);
+  color: var (--secondary-color);
 }
 
 @media (max-width: 1400px) {
