@@ -7,7 +7,7 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 20px 0;
-  background-image: url("assets/headphones_hero_1.jpg");
+  background-image: url("images/headphones_hero_1.jpg");
   background-size: cover;
   background-position: center;
   height: 800px;
