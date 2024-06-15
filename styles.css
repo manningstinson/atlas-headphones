@@ -1,134 +1,135 @@
 /* styles.css */
 body {
-    font-family: var(--font-family-primary);
+  font-family: var(--font-family-primary);
 }
 
 .header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px 0;
 }
 
 .container {
-    width: 90%;
-    max-width: var(--max-width);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
-    width: 150px;
+  width: 150px;
 }
 
 .nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .nav a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-size: 16px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .nav a:hover,
 .nav a:active {
-    color: var(--link-hover-color);
+  color: var(--link-hover-color);
 }
 
 .hero-content {
-    text-align: center;
-    margin-top: 50px;
-    padding: 50px 20px;
-    background-image: url('assets/headphones_hero_1.jpg');
-    background-size: cover;
-    background-position: center;
-    color: var(--secondary-
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 20px;
+  background-image: url("assets/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--secondary-color);
+}
 
 .hero-content h1 {
-    font-family: var(--font-family-secondary);
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-family: var(--font-family-secondary);
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .hero-content p {
-    font-size: 18px;
-    margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .cta-button {
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: opacity 0.3s;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: opacity 0.3s;
 }
 
 .cta-button:hover,
 .cta-button:active {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 @media (max-width: 1400px) {
-    .container {
-        width: 85%;
-    }
+  .container {
+    width: 85%;
+  }
 }
 
 @media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .nav a {
-        font-size: 14px;
-    }
+  .nav a {
+    font-size: 14px;
+  }
 
-    .hero-content h1 {
-        font-size: 28px;
-    }
+  .hero-content h1 {
+    font-size: 28px;
+  }
 
-    .hero-content p {
-        font-size: 16px;
-    }
+  .hero-content p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
-    .logo {
-        width: 120px;
-    }
+  .logo {
+    width: 120px;
+  }
 
-    .nav a {
-        font-size: 12px;
-    }
+  .nav a {
+    font-size: 12px;
+  }
 
-    .hero-content h1 {
-        font-size: 24px;
-    }
+  .hero-content h1 {
+    font-size: 24px;
+  }
 
-    .hero-content p {
-        font-size: 14px;
-    }
+  .hero-content p {
+    font-size: 14px;
+  }
 
-    .cta-button {
-        font-size: 14px;
-    }
+  .cta-button {
+    font-size: 14px;
+  }
 }
