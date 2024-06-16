@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.footer .container {
+.footer .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,6 @@
 .footer-logo {
   display: flex;
   align-items: center;
-  margin-left: 20px;
 }
 
 .footer-logo img {
@@ -27,7 +26,6 @@
 .social-media {
   display: flex;
   align-items: center;
-  margin-right: 20px;
 }
 
 .social-media a {
@@ -52,7 +50,7 @@
 
 /* Media Queries for Footer */
 @media (max-width: 768px) {
-  .footer .container {
+  .footer .footer-container {
     flex-direction: column;
     align-items: center;
   }
