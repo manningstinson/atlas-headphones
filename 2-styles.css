@@ -1,0 +1,240 @@
+/* What we do section */
+.what-we-do {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.what-we-do .container {
+  height: auto;
+}
+
+.what-we-do h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.what-we-do .description {
+  font-size: 16px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.service {
+  text-align: center;
+  margin: 20px;
+  max-width: 200px;
+}
+
+.service .icon {
+  width: 40px;
+  height: 40px;
+  fill: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .what-we-do h2 {
+    font-size: 28px;
+  }
+
+  .what-we-do .description {
+    font-size: 14px;
+  }
+
+  .service .icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .service h3 {
+    font-size: 16px;
+  }
+
+  .service p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service .icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .what-we-do h2 {
+    font-size: 24px;
+  }
+
+  .what-we-do .description {
+    font-size: 12px;
+  }
+
+  .service h3 {
+    font-size: 14px;
+  }
+
+  .service p {
+    font-size: 10px;
+  }
+}
+
+/* Our results section */
+.our-results {
+  padding: 50px 0;
+  text-align: center;
+  color: white; /* Assuming text should be white for contrast */
+  background-image: url("images/headphones_hero_2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.our-results .container {
+  height: auto;
+  margin-top: 50px;
+}
+
+.our-results h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.our-results .description {
+  font-size: 16px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.our-results .services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.our-results .service {
+  text-align: center;
+  margin: 20px;
+  max-width: 200px;
+}
+
+.our-results .service .icon {
+  width: 190px;
+  height: 190px;
+  background: url("icons/polygon.svg") no-repeat center center;
+  background-size: contain;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.our-results .service .icon span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.our-results .service .icon .percentage {
+  font-size: 42px;
+  display: block;
+}
+
+.our-results .service .icon .description {
+  font-size: 12px;
+  display: block;
+  margin-top: 40px;
+  width: 200px;
+}
+
+.our-results .service h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.our-results .service p {
+  font-size: 12px;
+  color: #ddd;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-results h2 {
+    font-size: 28px;
+  }
+
+  .our-results .description {
+    font-size: 14px;
+  }
+
+  .our-results .service .icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .our-results .service h3 {
+    font-size: 16px;
+  }
+
+  .our-results .service p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-results .service .icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .our-results h2 {
+    font-size: 24px;
+  }
+
+  .our-results .description {
+    font-size: 12px;
+  }
+
+  .our-results .service h3 {
+    font-size: 14px;
+  }
+
+  .our-results .service p {
+    font-size: 10px;
+  }
+}
