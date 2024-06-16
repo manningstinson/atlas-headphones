@@ -50,58 +50,6 @@
   color: #555;
 }
 
-@media (max-width: 1400px) {
-  .container {
-    width: 85%;
-  }
-}
-
-@media (max-width: 768px) {
-  .what-we-do h2 {
-    font-size: 28px;
-  }
-
-  .what-we-do .description {
-    font-size: 14px;
-  }
-
-  .service .icon {
-    width: 36px;
-    height: 36px;
-  }
-
-  .service h3 {
-    font-size: 16px;
-  }
-
-  .service p {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .service .icon {
-    width: 32px;
-    height: 32px;
-  }
-
-  .what-we-do h2 {
-    font-size: 24px;
-  }
-
-  .what-we-do .description {
-    font-size: 12px;
-  }
-
-  .service h3 {
-    font-size: 14px;
-  }
-
-  .service p {
-    font-size: 10px;
-  }
-}
-
 /* Our results section */
 .our-results {
   padding: 50px 0;
@@ -187,6 +135,7 @@
   color: #ddd;
 }
 
+/* Media Queries */
 @media (max-width: 1400px) {
   .container {
     width: 85%;
@@ -194,47 +143,51 @@
 }
 
 @media (max-width: 768px) {
+  .what-we-do h2,
   .our-results h2 {
     font-size: 28px;
   }
 
+  .what-we-do .description,
   .our-results .description {
     font-size: 14px;
   }
 
-  .our-results .service .icon {
+  .service .icon {
     width: 36px;
     height: 36px;
   }
 
-  .our-results .service h3 {
+  .service h3 {
     font-size: 16px;
   }
 
-  .our-results .service p {
+  .service p {
     font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  .our-results .service .icon {
+  .service .icon {
     width: 32px;
     height: 32px;
   }
 
+  .what-we-do h2,
   .our-results h2 {
     font-size: 24px;
   }
 
+  .what-we-do .description,
   .our-results .description {
     font-size: 12px;
   }
 
-  .our-results .service h3 {
+  .service h3 {
     font-size: 14px;
   }
 
-  .our-results .service p {
+  .service p {
     font-size: 10px;
   }
 }
