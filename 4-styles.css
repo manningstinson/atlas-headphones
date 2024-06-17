@@ -12,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 100px 50px;
 }
 
 .footer-logo {
@@ -49,11 +49,76 @@
   font-size: 14px;
 }
 
-/* Media Queries for Footer */
+/* Header Section */
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
-  .footer .footer-container {
-    flex-direction: column;
-    align-items: center;
+  .our-results {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 840px;
+  }
+
+  .header-content {
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .nav ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto; /* Align the nav-links to the right */
+  }
+
+  .nav-links li {
+    margin-left: 20px; /* Add space between the links */
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
   }
 
   .footer-logo {
@@ -82,5 +147,15 @@
 
   .footer p {
     font-size: 12px;
+  }
+
+  .our-results {
+    text-align: center;
+    color: white;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    height: 1400px;
+    padding: 50px 0px;
+    background-position: center center;
   }
 }

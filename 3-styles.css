@@ -75,6 +75,16 @@
   .contact-form button {
     font-size: 14px;
   }
+
+  .our-results {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+  }
 }
 
 @media (max-width: 480px) {
